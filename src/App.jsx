@@ -1,5 +1,12 @@
+import Title from './component/Title';
+import FirstRequest from './examples/first-request';
 const App = () => {
-  return <h1>App</h1>;
+  return (
+    <main>
+      <Title />
+      <FirstRequest />
+    </main>
+  );
 };
 
 export default App;
