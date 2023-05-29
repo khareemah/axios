@@ -1,10 +1,10 @@
 import Title from './component/Title';
-import CustomInstance from './examples/5-custom-instance';
+import Interceptors from './examples/6-interceptors';
 const App = () => {
   return (
     <main>
       <Title />
-      <CustomInstance />
+      <Interceptors />
     </main>
   );
 };
