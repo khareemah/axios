@@ -1,10 +1,10 @@
 import Title from './component/Title';
-import PostRequest from './examples/3-post-request';
+import GlobalInstance from './examples/4-global-instance';
 const App = () => {
   return (
     <main>
       <Title />
-      <PostRequest />
+      <GlobalInstance />
     </main>
   );
 };
