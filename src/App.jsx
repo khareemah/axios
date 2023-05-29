@@ -1,10 +1,10 @@
 import Title from './component/Title';
-import GlobalInstance from './examples/4-global-instance';
+import CustomInstance from './examples/5-custom-instance';
 const App = () => {
   return (
     <main>
       <Title />
-      <GlobalInstance />
+      <CustomInstance />
     </main>
   );
 };
