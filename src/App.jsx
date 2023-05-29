@@ -1,10 +1,10 @@
 import Title from './component/Title';
-import Headers from './examples/2-headers';
+import PostRequest from './examples/3-post-request';
 const App = () => {
   return (
     <main>
       <Title />
-      <Headers />
+      <PostRequest />
     </main>
   );
 };
