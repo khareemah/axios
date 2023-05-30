@@ -1,13 +1,11 @@
-import { ToastContainer } from 'react-toastify';
-import Form from './Form';
-import Items from './Items';
+import Title from './component/Title';
+import Interceptors from './examples/6-interceptors';
 const App = () => {
   return (
-    <section className='section-center'>
-      <ToastContainer position='top-center' />
-      <Form />
-      <Items />
-    </section>
+    <main>
+      <Title />
+      <Interceptors />
+    </main>
   );
 };
 
